@@ -1,0 +1,204 @@
+{
+    "root_group": {
+        "checks": {
+            "200 OK": {
+                "fails": 0,
+                "name": "200 OK",
+                "path": "::200 OK",
+                "id": "e9654c443eff553da9e69eda7007924e",
+                "passes": 1
+            },
+            "201 Created": {
+                "name": "201 Created",
+                "path": "::201 Created",
+                "id": "728dcd977aae263ca314731145e1d447",
+                "passes": 0,
+                "fails": 1
+            },
+            "204 No Content": {
+                "id": "54fa3c2eda34e1622fda2da5e0479fc5",
+                "passes": 0,
+                "fails": 1,
+                "name": "204 No Content",
+                "path": "::204 No Content"
+            },
+            "400 Bad Request": {
+                "name": "400 Bad Request",
+                "path": "::400 Bad Request",
+                "id": "eeae81934b9b58bccaf0184a6d070338",
+                "passes": 0,
+                "fails": 1
+            },
+            "401 Unauthorized": {
+                "fails": 1,
+                "name": "401 Unauthorized",
+                "path": "::401 Unauthorized",
+                "id": "6ae9254e6aefe7f0bafe5102fa7e20a5",
+                "passes": 0
+            },
+            "403 Forbidden": {
+                "fails": 1,
+                "name": "403 Forbidden",
+                "path": "::403 Forbidden",
+                "id": "655548b761742c5a7ad15aa7df3a5d9c",
+                "passes": 0
+            },
+            "404 Not Found": {
+                "name": "404 Not Found",
+                "path": "::404 Not Found",
+                "id": "df1528f9925ca236bac51008f77b774a",
+                "passes": 0,
+                "fails": 1
+            },
+            "429 Too Many Requests": {
+                "id": "b810c35b9499cc7342fd415032e3a6aa",
+                "passes": 0,
+                "fails": 1,
+                "name": "429 Too Many Requests",
+                "path": "::429 Too Many Requests"
+            },
+            "500 Internal Server Error": {
+                "name": "500 Internal Server Error",
+                "path": "::500 Internal Server Error",
+                "id": "3cd96245b24e869810efe46d533b0eef",
+                "passes": 0,
+                "fails": 1
+            },
+            "502 Bad Gateway": {
+                "id": "712cb0ec189a11f31f0d6d0c0031b569",
+                "passes": 0,
+                "fails": 1,
+                "name": "502 Bad Gateway",
+                "path": "::502 Bad Gateway"
+            },
+            "503 Service Unavailable": {
+                "name": "503 Service Unavailable",
+                "path": "::503 Service Unavailable",
+                "id": "f1ea1a22be0dc738c385523a66ea1cd9",
+                "passes": 0,
+                "fails": 1
+            },
+            "504 Gateway Timeout": {
+                "name": "504 Gateway Timeout",
+                "path": "::504 Gateway Timeout",
+                "id": "218efb729cb654723ccd57c6ebbebe29",
+                "passes": 0,
+                "fails": 1
+            }
+        },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {}
+    },
+    "metrics": {
+        "http_reqs": {
+            "count": 1,
+            "rate": 0.8935009421967435
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 35.2356,
+            "min": 35.2356,
+            "med": 35.2356,
+            "max": 35.2356,
+            "p(90)": 35.2356,
+            "p(95)": 35.2356
+        },
+        "iteration_duration": {
+            "avg": 1119.1899,
+            "min": 1119.1899,
+            "med": 1119.1899,
+            "max": 1119.1899,
+            "p(90)": 1119.1899,
+            "p(95)": 1119.1899
+        },
+        "data_received": {
+            "count": 28273,
+            "rate": 25261.952138728528
+        },
+        "http_req_waiting": {
+            "avg": 34.5736,
+            "min": 34.5736,
+            "med": 34.5736,
+            "max": 34.5736,
+            "p(90)": 34.5736,
+            "p(95)": 34.5736
+        },
+        "vus_max": {
+            "value": 1,
+            "min": 1,
+            "max": 1
+        },
+        "http_req_tls_handshaking": {
+            "avg": 8.1841,
+            "min": 8.1841,
+            "med": 8.1841,
+            "max": 8.1841,
+            "p(90)": 8.1841,
+            "p(95)": 8.1841
+        },
+        "http_req_sending": {
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_connecting": {
+            "p(90)": 1.2022,
+            "p(95)": 1.2022,
+            "avg": 1.2022,
+            "min": 1.2022,
+            "med": 1.2022,
+            "max": 1.2022
+        },
+        "iterations": {
+            "count": 1,
+            "rate": 0.8935009421967435
+        },
+        "http_req_receiving": {
+            "med": 0.662,
+            "max": 0.662,
+            "p(90)": 0.662,
+            "p(95)": 0.662,
+            "avg": 0.662,
+            "min": 0.662
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 1
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 1,
+            "value": 0
+        },
+        "data_sent": {
+            "rate": 612.941646346966,
+            "count": 686
+        },
+        "checks": {
+            "passes": 1,
+            "fails": 11,
+            "value": 0.08333333333333333
+        },
+        "http_req_duration": {
+            "p(95)": 35.2356,
+            "avg": 35.2356,
+            "min": 35.2356,
+            "med": 35.2356,
+            "max": 35.2356,
+            "p(90)": 35.2356
+        },
+        "http_req_blocked": {
+            "avg": 82.8639,
+            "min": 82.8639,
+            "med": 82.8639,
+            "max": 82.8639,
+            "p(90)": 82.8639,
+            "p(95)": 82.8639
+        }
+    }
+}
